@@ -1,0 +1,34 @@
+{ "name": "iframe-plugin-base-2606-pmb",
+  "version": "0.0.0",
+  "description": "Tooling for setting up an iframe to be used as a plugin for a web app.",
+  "keywords": [],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/iframe-plugin-base-2606-pmb/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/iframe-plugin-base-2606-pmb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/iframe-plugin-base-2606-pmb/issues"
+  },
+  "contributors": [],
+
+  "private": false, "license": "ISC",
+
+  "main": "src/index.mjs",
+  "scripts": { "test": "elp && nodejs test/all.mjs" },
+  "directories": { "doc": "docs", "test": "test" },
+  "eslintConfig": { "extends": "nodejs-pmb",
+    "env": { "browser": true }
+  },
+
+  "dependencies": {},
+  "devDependencies": {
+    "equal-pmb": "^0.1.6",
+    "lib-demo-util-160404": "^0.1.13"
+  },
+
+
+  "engines": { "npm": ">=7.0.0", "node": ">=24.0.0" }
+}
