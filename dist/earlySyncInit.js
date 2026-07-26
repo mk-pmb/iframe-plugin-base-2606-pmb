@@ -1,0 +1,1 @@
+﻿(function(m,f){onmessage=f=m.push.bind(m);f.m=m;}([]));

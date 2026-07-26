@@ -1,0 +1,20 @@
+
+### BEGIN ghpages-autodist-bundles ###
+/*.bundle.js
+/*.bundle.mjs
+/*.min.js
+/*.min.mjs
+### ENDOF ghpages-autodist-bundles ###
+
+
+# Auto-generated files:
+/tmp.*
+
+
+
+# Host-specific files
+/*.@*
+
+
+
+# Unsorted stuff (this section should be empty):
