@@ -1,7 +1,5 @@
 const EX = async function connectToIframe(how) {
   const { iframe, method, params, ...adaperConfig } = how;
-  iframe.domRpcInitMethod = method;
-  iframe.domRpcInitParams = params;
   const sham = {
     name: 'domRpcSham',
     requestHandlers: {},
@@ -9,6 +7,7 @@ const EX = async function connectToIframe(how) {
     sendRequest(m, p) { return iframe.contentWindow.domRpcRequest(m, p); },
     ...adaperConfig,
   };
+  iframe.domRpcInit = { method, params, hostSham: sham };
   return sham;
 };
 
